@@ -20,3 +20,6 @@ function getTransactions(userId: string, fromDate: number, toDate: number){
     let transaction_01 = new Transaction("001", "first_transaction", "1st_Description", "Sucess");
 
 }
+
+
+let transaction_02 = new Transaction("002", "second_transaction", "2nd_Description", "Sucess");
