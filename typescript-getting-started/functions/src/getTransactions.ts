@@ -1,6 +1,6 @@
 'use strict';
 
-import * as functions from 'firebase-functions'
+//import * as functions from 'firebase-functions'
 
 // if you need to use the Firebase Admin SDK, uncomment the following:
 // import * as admin from 'firebase-admin'
@@ -11,6 +11,12 @@ import * as functions from 'firebase-functions'
 //    cd functions
 //    npm run deploy
 
-export const helloWorld = functions.https.onRequest((request, response) => {
- response.send('Hello from Firebase!\n\n');
-});
+//export const helloWorld = functions.https.onRequest((request, response) => {
+// response.send('Function getTransactions!\n\n');
+//});
+
+
+function getTransactions(userId: string, fromDate: number, toDate: number){
+    let transaction_01 = new Transaction("001", "first_transaction", "1st_Description", "Sucess");
+
+}
