@@ -12,4 +12,25 @@ class Transaction {
         this.description = description;
         this.status = status;
     }
+    
+    public get getUserId() : string {
+        return this.userId;
+    }
+
+    public get getCreatedDate() : number {
+        return this.createdDate;
+    }
+
+    public get getName() : string {
+        return this.name;
+    }
+
+    public get getDescription() : string {
+        return this.description;
+    }
+
+    public get getStatus() : string {
+        return this.status;
+    }
+    
 }
